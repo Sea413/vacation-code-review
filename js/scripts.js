@@ -9,7 +9,7 @@ var niet = $("select#niet").val();
 var quantum = $("input#quantum").val();
 var test = animal.charCodeAt(0)-97;
 
-if (characters === "westeros" && age> 1 && age <=20 && jerry === 'yes' && niet === 'satre' && test>=0 && test<=10 && quantum ==='ant') {
+if (characters === "westeros" && age> 1 && age <=20 && jerry === 'yes' && niet === 'satre' && test>=0 && test<=10) {
   $("#rick").show();
 } else {
   $("#rick").hide();

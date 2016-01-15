@@ -1,12 +1,23 @@
-.box
-{
-  width: 100%;
-  height: 400px;
-
-}
 li {
   margin: inherit;
 }
-#rick{
+#got{
+  display: none;
+}
+img
+{
+  width: 600px;
+  height: 400px;
+}
+#frodo{
+  display: none;
+}
+#jb{
+  display: none;
+}
+#beth{
+  display: none;
+}
+#worf{
   display: none;
 }
