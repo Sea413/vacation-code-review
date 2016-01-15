@@ -7,12 +7,12 @@ var jerry = $("select#jerry").val();
 var animal = $("input#animal").val();
 var niet = $("select#niet").val();
 var quantum = $("input#quantum").val();
+var test = animal.charCodeAt(0)-97;
 
-if (characters === "westeros"){
-// if (characters === "westeros" && characters !== "mordor" && characters !== "deadwood" && characters !== "jerry" && characters !=='star' && age> 1 && age <=20 && animal==='ant' && niet === 'satre' && niet !== 'kant' && niet !=='foucault' && niet !=='schopenhauer') {
-  $(h1).show();
+if (characters === "westeros" && age> 1 && age <=20 && jerry === 'yes' && niet === 'satre' && test>=0 && test<=10 && quantum ==='ant') {
+  $("#rick").show();
 } else {
-  $(h1).hide();
+  $("#rick").hide();
 }
 
 // if (characters !== "westeros" && characters === "mordor" && characters !== "deadwood" && characters !== "jerry" && characters !=='star') {
