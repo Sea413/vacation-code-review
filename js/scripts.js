@@ -4,40 +4,43 @@ $("form#question").submit(function(event) {
 var characters = $("select#characters").val();
 var age = parseInt($("input#age").val());
 var jerry = $("select#jerry").val();
-var animal = $("input#animal").val();
+var animal = $("input#animal").val().s.charCodeAt(0) - 97;
 var niet = $("select#niet").val();
 var quantum = $("input#quantum").val();
 
-if (alien === "Gearhead" && alien !== "Birdperson" && alien !== "Zeke" && age>50 && musical !=='Schwifty') {
-  $('#rick').show();
+if (characters === "westeros" && characters !== "mordor" && characters !== "deadwood" && characters !== "jerry" && characters !=='star' && age> 1 && age <=20 && animal>1 && animal) {
+  $('#q11').val(1);
 } else {
-  $('#rick').hide();
+  $('#q11').val(0);
 }
 
-if (alien !== "Gearhead" && alien === "Birdperson" && alien !== "Zeke" && age>50 && musical !=='Schwifty') {
-  $('#morty').show();
+if (characters !== "westeros" && characters === "mordor" && characters !== "deadwood" && characters !== "jerry" && characters !=='star') {
+  $('#q12').val(2);
 } else {
-  $('#morty').hide();
+  $('#q12').val(0);
 }
 
-if (alien !== "Gearhead" && alien !== "Birdperson" && alien === "Zeke" && age>50 && musical !=='Schwifty') {
-  $('#jerry').show();
+if (characters !== "westeros" && characters !== "mordor" && characters === "deadwood" && characters !== "jerry" && characters !=='star') {
+  $('#q13').val(3);
 } else {
-  $('#jerry').hide();
+  $('#q13').val(0);
 }
-if (age<=50 && age>= 31 && (musical !=='Schwifty')) {
-  $('#beth').show();
+if (characters !== "westeros" && characters !== "mordor" && characters !== "deadwood" && characters === "jerry" && characters !=='star') {
+  $('#q14').val(4);
 } else {
-  $('#beth').hide();
+  $('#q14').val(0);
 }
-if (age>=1 && age<=30 && (musical !=='Schwifty')) {
-  $('#summer').show();
+if (characters !== "westeros" && characters !== "mordor" && characters !== "deadwood" && characters !== "jerry" && characters ==='star') {
+  $('#q15').val(5);
 } else {
-  $('#summer').hide();
+  $('#q15').val(0);
 }
-if (age>0 && musical ==='Schwifty') {
-  $('#meseeks').show();
+if (age) {
+  $('#q12').val(2);
 } else {
+  $('#q12').val(0);
+}
+
   $('#meseeks').hide();
 }
 event.preventDefault();
