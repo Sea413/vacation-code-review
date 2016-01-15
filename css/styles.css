@@ -7,3 +7,6 @@
 li {
   margin: inherit;
 }
+h1 {
+  display: none;
+}
