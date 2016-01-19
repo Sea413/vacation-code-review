@@ -1,0 +1,40 @@
+Destinations
+
+1.) Westeros
+2.) Mordor
+3.) Deadwood
+4.) Rick's Car Battery
+5.) Starship Enterprise
+
+Questions
+1.) How much do you love your favorite characters?
+* Provide five options in a select menu each with a joke.
+2.) At what age do you think protagonists hit their swagger?
+* Run this question as a parse int with five divisions between 1-100 with breaks at every 20.
+3.) Are you a Jerry?
+*Binary Select yes or no.
+4.) What is your spirit animal?
+*Create an input field and the binaries around the first letter of each word.
+5.) Do you agree with Friedrich Nietzsche that the advent of modern rationalist thought has displaced our traditional value system and has created an existential void of meaning? Please reference this dissertation for additional reference. https://www.ideals.illinois.edu/handle/2142/42404
+Select drop down 4 choices.
+6.) What are your feelings into the potential advent of quantum computing into modern computational practices? Please provide an essay below on the subject matter detailing your thoughts. Completed bibliographies will not be required at this time though are considered good practice in the future.
+
+Doing the math time listing all possible permutations and creating a number assignment for them.
+
+Question 1 has 4!
+Question 2 has 5!
+Question 3 has 2!
+Question 4 has 26!
+Question 5 has 4!
+Question 6 has 20!
+
+Permutations
+
+6
+17
+28
+39
+50
+61
+
+final vriable

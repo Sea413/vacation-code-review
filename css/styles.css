@@ -1,0 +1,23 @@
+li {
+  margin: inherit;
+}
+#got{
+  display: none;
+}
+img
+{
+  width: 600px;
+  height: 400px;
+}
+#frodo{
+  display: none;
+}
+#jb{
+  display: none;
+}
+#beth{
+  display: none;
+}
+#worf{
+  display: none;
+}
